@@ -4,6 +4,10 @@
 }
 
 @media (max-width: 769px) {
+	.cake-social{
+		padding-top: 180px!important;
+    	padding-bottom:160px!important;
+	}
 
 }
 
@@ -27,6 +31,11 @@
 
 	}
 
+	.cake-social {
+		padding-top: 250px;
+    	padding-bottom: 230px;
+	}
+
 }
 
 @media (min-width: 994px) { 
@@ -34,6 +43,11 @@
 		width: 450px;
 		left: 50px;
 	}
+	.cake-social {
+		padding-top: 250px;
+    	padding-bottom: 230px;
+	}
+
 }
 
 body{
@@ -83,11 +97,6 @@ p{
 	border-radius: 25px;
 }
 
-/*#cake-wrapper {
-	min-height: 300px;
-	min-width: 250px;
-}*/
-
 .cake{
 	position: absolute;
 	top:-77px;
@@ -99,4 +108,58 @@ p{
 #celebrate {
 	margin: 40px 0;
 	padding: 0 20px;
+}
+
+.cake-header{
+	text-align: center;
+	margin: 90px auto;
+}
+
+.cake-instagram{
+	height: 285px;
+   	padding: 0 0;
+}
+
+.cake-target{
+	width: 90%;
+	height: 90%;
+	margin: 10px auto;
+	background-position: center;
+   	background-size: cover;
+}
+
+.cake-target:hover {
+	opacity: 0.7;
+}
+
+.cake-social {
+	background-image: url("../assets/img/cake-party.jpeg");
+	background-color: black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+
+	border-radius: 25px;
+    
+    margin-top: 133px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.cake-social-header{
+	/*float: left;*/
+}
+
+.cake-social-icons{
+	font-size: 64px;
+	float:right;
+}
+
+.social-icons {
+		color: white;
+}
+.social-icons:hover {
+		color: white;
+		opacity: 0.8;
 }
