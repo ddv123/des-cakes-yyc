@@ -129,15 +129,16 @@ p{
 }
 
 .cake-target:hover {
-	opacity: 0.7;
+	opacity: 0.5;
 }
 
 .cake-social {
-	background-image: url("../assets/img/cake-party.jpeg");
+	background-image: url("../assets/img/cupcakes.jpeg");
 	background-color: black;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	opacity: 0.8;
 	color: white;
 
 	border-radius: 25px;
@@ -145,10 +146,6 @@ p{
     margin-top: 133px;
     padding-left: 80px;
     padding-right: 80px;
-}
-
-.cake-social-header{
-	/*float: left;*/
 }
 
 .cake-social-icons{
@@ -162,4 +159,15 @@ p{
 .social-icons:hover {
 		color: white;
 		opacity: 0.8;
+}
+
+.cake-form{
+	width: 90%;
+	margin: 0 auto;
+	padding: 70px 0;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 80px;
 }
